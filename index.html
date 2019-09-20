@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="target-densitydpi=device-dpi" />
+<!--	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />-->
+	<meta name="viewport" content="width=1024, user-scalable=yes" />
+	<title>МОНТУРА development</title>
+	<!-- CSS -->
+	<link media="screen,projection" rel="stylesheet" type="text/css" href="assets/css/materialize.min.css"></link>
+	<link media="screen,projection" rel="stylesheet" type="text/css" href="assets/css/swiper.min.css"></link>
+	<link media="screen,projection" rel="stylesheet" type="text/css" href="assets/css/flexbox.css"></link>
+	<link media="screen,projection" rel="stylesheet" type="text/css" href="assets/fonts/ptsans.css"></link>
+	<link media="screen,projection" rel="stylesheet" type="text/css" href="assets/css/index.css"></link>
+</head>
+
+<body>
+<!-- всё закоменченное трогать только при вёрстке мобильной версии
+	<ul class="side-nav white flex-column" id="mobile-menu">
+		<li><a class="ptBold black-text" href="#third">Услуги</a></li>
+		<li><a class="ptBold black-text" href="#fourth">Проделаные работы</a></li>
+		<li><a class="ptBold black-text" href="#sixth">Контакты</a></li>
+		<li><a class="ptReg black-text external_service" href="tel:89652506516">8 (965) 250-65-16</a></li>
+		<li><a class="ptReg black-text external_service" href="mailto:ms.remont87@mail.ru">ms.remont87@mail.ru</a></li>
+		<li><a data-target="modal_form" class="modal-trigger ptBold black-text">Позвоните мне</a></li>
+	</ul>
+-->
+	<header class="fixed">
+		<div class="navbar-fixed">
+			<nav class="transparent z-depth-0">
+				<div class="nav-wrapper transparent valign">
+<!--					<a data-activates="mobile-menu" class="external_service button-collapse hide-on-large-only">-->
+<!--						<span class="white"></span>-->
+<!--					</a>-->
+					<div class="container">
+						<div class="row">
+							<div class="flex-row">
+								<a href="https://monturadev.ru" class="brand-logo flex-column">
+									<img src="assets/img/logo.png" alt="Монтура Development" class="responsive-img">
+								</a>
+<!--								<ul id="navi" class="hide-on-med-and-down">-->
+								<ul id="navi">
+									<li><a class="ptBold white-text" href="#third">Услуги</a></li>
+									<li><a class="ptBold white-text" href="#fourth">Проделаные работы</a></li>
+									<li><a class="ptBold white-text" href="#sixth">Контакты</a></li>
+								</ul>
+<!--								<div class="phone-n-mail flex-column hide-on-med-and-down">-->
+								<div class="phone-n-mail flex-column">
+									<a class="ptBold white-text external_service" href="tel:89652506516">8 (965) 250-65-16</a>
+									<a class="ptReg white-text external_service" href="mailto:ms.remont87@mail.ru">ms.remont87@mail.ru</a>
+								</div>
+<!--								<div class="callback flex-column hide-on-med-and-down">-->
+								<div class="callback flex-column">
+									<a data-target="modal_form" class="modal-trigger ptBold white-text">Позвоните мне</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<div id="first">
+			<div class="section no-pad">
+				<div class="container-thick content">
+					<div class="row center">
+						<div class="col s12 m12 l12">
+							<h1 class="ptBold white-text"><span class="ptBold white-text first-line">Цена может быть разной...</span>
+<span class="ptBold white-text second-line">качество всегда на высоте.</span></h1>
+						</div>
+					</div>
+					<div class="row center prices">
+						<div class="col s12 m12 l12">
+							<div class="col s4 m4 l4">
+								<p class="ptBold white-text">Косметический<br/>ремонт</p>
+								<p class="ptReg white-text price">от 3000 руб</p>
+							</div>
+							<div class="col s4 m4 l4">
+								<p class="ptBold white-text">Капитальный<br/>ремонт</p>
+								<p class="ptReg white-text price">от 6000 руб</p>
+							</div>
+							<div class="col s4 m4 l4">
+								<p class="ptBold white-text">Ремонт по<br/>дизайн-проекту</p>
+								<p class="ptReg white-text price">от 7500 руб</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="back">
+					<div class="filter"></div>
+					<img src="assets/img/background.jpg" alt="" class="responsive-img">
+				</div>
+			</div>
+		</div>
+		<div id="second">
+			<div class="section no-pad">
+				<div class="duo_heading flex-column">
+					<div class="heading white">
+						<h4 class="ptBold white black-text center-align">О нас</h4>
+					</div>
+					<div class="duo_line"></div>
+				</div>
+				<div class="container content">
+					<div class="row">
+						<div class="col s12 m12 l12 description">
+							<p class="ptReg black-text">Компания Монтура Development занимается ремонтом квартир более десяти лет. Мы используем только современный инструмент и сотрудничаем только с высококвалифицированными специалистами, а также сотрудничаем с дизайнерами, которые создадут уют вашего жилища.</p>
+						</div>
+					</div>
+				</div>
+				<div class="container-thick icons">
+					<div class="row">
+						<div class="flex-row">
+							<div class="col s6 m6 l2 flex-column">
+								<div class="circle icon">
+									<img src="assets/icons/ten_blue.svg" alt="иконка" class="responsive-img">
+								</div>
+								<p class="ptReg black-text">лет опыта
+									<br/>работы</p>
+							</div>
+							<div class="col s6 m6 l2 flex-column">
+								<div class="circle icon">
+									<img src="assets/icons/wallet_blue.svg" alt="иконка" class="responsive-img">
+								</div>
+								<p class="ptReg black-text">работаем
+									<br/>без предоплаты</p>
+							</div>
+							<div class="col s6 m6 l2 flex-column">
+								<div class="circle icon">
+									<img src="assets/icons/clock_blue.svg" alt="иконка" class="responsive-img">
+								</div>
+								<p class="ptReg black-text">придерживаемся
+									<br/> оговоренных сроков</p>
+							</div>
+							<div class="col s6 m6 l2 flex-column">
+								<div class="circle icon">
+									<img src="assets/icons/ruler_blue.svg" alt="иконка" class="responsive-img">
+								</div>
+								<p class="ptReg black-text">выезд замерщика
+									<br/>бесплатно</p>
+							</div>
+							<div class="col s6 m6 l2 flex-column">
+								<div class="circle icon">
+									<img src="assets/icons/one_blue.svg" alt="иконка" class="responsive-img">
+								</div>
+								<p class="ptReg black-text">год гарантии
+									<br/>на все работы</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="third">
+			<div class="section no-pad">
+				<div class="duo_heading flex-column">
+					<div class="heading white">
+						<h4 class="ptBold white black-text center-align">Услуги</h4>
+					</div>
+					<div class="duo_line"></div>
+				</div>
+				<div class="container icons content">
+					<div class="row">
+						<div class="hide-on-med-and-down">
+							<div class="col s12 m12 l12 flex-row">
+								<div class="col s6 m4 l3 flex-row services">
+									<div class="icon valign-wrapper">
+										<img src="assets/icons/concrete_mixer_blue.svg" alt="иконка" class="responsive-img">
+									</div>
+									<div class="text">
+										<p class="ptReg black-text">Бетонные
+											<br/>работы</p>
+									</div>
+								</div>
+								<div class="col s6 m4 l3 flex-row services">
+									<div class="icon valign-wrapper">
+										<img src="assets/icons/roof_tile_blue.svg" alt="иконка" class="responsive-img">
+									</div>
+									<div class="text">
+										<p class="ptReg black-text">Кровельные
+											<br/>работы</p>
+									</div>
+								</div>
+								<div class="col s6 m4 l3 flex-row services">
+									<div class="icon valign-wrapper">
+										<img src="assets/icons/saw_blue.svg" alt="иконка" class="responsive-img">
+									</div>
+									<div class="text">
+										<p class="ptReg black-text">Столярные
+											<br/>работы</p>
+									</div>
+								</div>
+								<div class="col s6 m4 l3 flex-row services">
+									<div class="icon valign-wrapper">
+										<img src="assets/icons/tube_blue.svg" alt="иконка" class="responsive-img">
+									</div>
+									<div class="text">
+										<p class="ptReg black-text">Сантехнические
+											<br/>работы</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="col s12 m12 l12 flex-row">
+								<div class="col s6 m4 l3 flex-row services">
+									<div class="icon valign-wrapper">
+										<img src="assets/icons/spark_blue.svg" alt="иконка" class="responsive-img">
+									</div>
+									<div class="text">
+										<p class="ptReg black-text">Электро-монтажные
+											<br/>работы</p>
+									</div>
+								</div>
+								<div class="col s6 m4 l3 flex-row services">
+									<div class="icon valign-wrapper">
+										<img src="assets/icons/hammer_blue.svg" alt="иконка" class="responsive-img">
+									</div>
+									<div class="text">
+										<p class="ptReg black-text">Демонтажные
+											<br/>работы</p>
+									</div>
+								</div>
+								<div class="col s6 m4 l3 flex-row services">
+									<div class="icon valign-wrapper">
+										<img src="assets/icons/tiles_blue.svg" alt="иконка" class="responsive-img">
+									</div>
+									<div class="text">
+										<p class="ptReg black-text">Плиточные
+											<br/>работы</p>
+									</div>
+								</div>
+								<div class="col s6 m4 l3 flex-row services">
+									<div class="icon valign-wrapper">
+										<img src="assets/icons/monitor_blue.svg" alt="иконка" class="responsive-img">
+									</div>
+									<div class="text">
+										<p class="ptReg black-text">Составление
+											<br/>дизайн-проекта</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="col s12 m12 l12">
+								<div class="col s6 m4 l3 offset-l3 flex-row services">
+									<div class="icon valign-wrapper">
+										<img src="assets/icons/wall_paper_blue.svg" alt="иконка" class="responsive-img">
+									</div>
+									<div class="text">
+										<p class="ptReg black-text">Отделочные работы:
+											<br/>потолки, стены, полы </p>
+									</div>
+								</div>
+								<div class="col s6 m4 l6 flex-row services">
+									<div class="icon valign-wrapper">
+										<img src="assets/icons/shovel_blue.svg" alt="иконка" class="responsive-img">
+									</div>
+									<div class="text">
+										<p class="ptReg black-text">Благоустройство территории:
+											<br/>расчистка листвы и снега</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col s12 m12 l12 flex-row">
+							<a href="assets/xls/mondev-price.xlsx" class="btn btn-round z-depth-0 external_service">
+								<div class="icon">
+									<img src="assets/icons/down_white.svg" alt="" class="responsive-img">
+								</div>
+								<p class="ptBold">Загрузить прайс-лист</p>
+							</a>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="fourth">
+			<div class="section no-pad">
+				<div class="duo_heading flex-column">
+					<div class="heading white">
+						<h4 class="ptBold white black-text center-align">Проделанные работы</h4>
+					</div>
+					<div class="duo_line"></div>
+				</div>
+				<div class="container slider content">
+					<div class="row">
+						<!-- Slider main container -->
+						<div class="swiper-container works_swiper">
+							<!-- Additional required wrapper -->
+							<div class="swiper-wrapper">
+								<!-- Slides -->
+								<div class="swiper-slide">
+									<div class="flex-column">
+										<div class="image">
+											<img src="assets/img/w1.jpg" alt="" class="responsive-img">
+										</div>
+										<div class="caption">
+										<p class="ptReg black-text">Выполнено: </p>
+											<p class="ptReg black-text">зонирование комнаты 17 м.кв: спальня, детская зона, встроенный шкаф; полная замена электропроводки, также ТВ, интернет, раздельное освещение; замена балконого блока, смещение входной двери. ремонт  "скрипучего" пола.</p>
+										</div>
+									</div>
+									</div>
+								<div class="swiper-slide">
+									<div class="flex-column">
+										<div class="image">
+											<img src="assets/img/w4.jpg" alt="" class="responsive-img">
+										</div>
+										<div class="caption">
+										<p class="ptReg black-text">Выполнено: </p>
+											<p class="ptReg black-text">совмещение туалета с ванной; полная разводка труб, планировка и установка сантехники; тепло-шумоизоляция несущей стены, гидроизоляция пола, укладка плитки.</p>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="flex-column">
+										<div class="image">
+											<img src="assets/img/w2.jpg" alt="" class="responsive-img">
+										</div>
+										<div class="caption">
+										<p class="ptReg black-text">Выполнено: </p>
+											<p class="ptReg black-text">капитальный ремонт кухни, выравнивание потолков под покраску, стены виниловые обои бетонирование пола укладка керамогранита с элементами декора, фартук из мозаики, разводка электрики, вентиляции, сантехники, установка подоконника, и межкомнатной двери.</p>
+										</div>
+									</div>
+									</div>
+								<div class="swiper-slide">
+									<div class="flex-column">
+										<div class="image">
+											<img src="assets/img/w5.jpg" alt="" class="responsive-img">
+										</div>
+										<div class="caption">
+										<p class="ptReg black-text">Выполнено: </p>
+											<p class="ptReg black-text">капитальный ремонт спальни с частичной перепланировкой; шумоизоляция потолка, стен и пола; укладка на пол массива бамбука; зонирование места под гардероб..</p>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="flex-column">
+										<div class="image">
+											<img src="assets/img/w3.jpg" alt="" class="responsive-img">
+										</div>
+										<div class="caption">
+										<p class="ptReg black-text">Выполнено: </p>
+											<p class="ptReg black-text">снос не несущей перегородки; совмещение гостиной и лоджии с устройством тепло-шумоизоляции (потолок, стены, пол) в области лоджии; укладка декоративного камня на стены и обработка специальной пропиткой.</p>
+										</div>
+									</div>
+									</div>
+								<div class="swiper-slide">
+									<div class="flex-column">
+										<div class="image">
+											<img src="assets/img/w6.jpg" alt="" class="responsive-img">
+										</div>
+										<div class="caption">
+										<p class="ptReg black-text">Выполнено: </p>
+											<p class="ptReg black-text">капитальный ремонт кухни, выравнивание потолков под покраску, стены виниловые обои бетонирование пола укладка керамогранита с элементами декора, фартук из мозаики, разводка электрики, вентиляции, сантехники, установка подоконника, и межкомнатной двери.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-button-prev-custom swiper-work-prev"></div>
+						<div class="swiper-button-next-custom swiper-work-next"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="fifth">
+			<div class="section no-pad">
+				<div class="duo_heading flex-column">
+					<div class="heading white">
+						<h4 class="ptBold white black-text center-align">Отзывы</h4>
+					</div>
+					<div class="duo_line"></div>
+				</div>
+				<div class="container slider content">
+					<div class="row">
+						<div class="swiper-container testimonials_slider">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide flex-column">
+									<div class="flex-column">
+										<div class="image circle">
+											<img src="assets/img/evgenia.png" alt="" class="responsive-img">
+										</div>
+										<div class="caption">
+											<p class="name ptBold black-text">Архангельская Евгения,<br>г. Нахабино</p>
+											<p class="ptReg black-text">Делали ремонт комнаты и коридора, сделали все качественно и быстро. Буду обращаться в дальнейшем.<br>Спасибо.</p>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide flex-column">
+									<div class="flex-column">
+										<div class="image circle">
+											<img src="assets/img/no_avatar.png" alt="" class="responsive-img">
+										</div>
+										<div class="caption">
+											<p class="name ptBold black-text">Марина,<br>г. Москва</p>
+											<p class="ptReg black-text">Постоянный клиент. Пользовалась услугами для офиса и для себя лично.  Заказывала косметический и капитальный. <br>
+При бдительном контроле заказчика команда сделает все по высшему разряду. Личная заинтересованность заказчика только подстегивает работников делать все качественно и старательно.<br>
+Считаю что нельзя сделать  добротный качественный ремонт без выравнивания стен и полов. И дизайн продумывайте заранее, обязательно утвердив план до начала работ.<br>
+Цены - среднерыночные,  соответствуют качеству. В следующий раз для проведения очередного ремонта, воспользуюсь услугами своего мастера заново!</p>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide flex-column">
+									<div class="flex-column">
+										<div class="image circle">
+											<img src="assets/img/natalya.png" alt="" class="responsive-img">
+										</div>
+										<div class="caption">
+											<p class="name ptBold black-text">Захарова Наталья,<br>Красногорск</p>
+											<p class="ptReg black-text">Хочу поблагодарить Вас! Я уже не надеялась, что найду хорошую бригаду мастеров, так как ремонт в моей квартире до этой команды делали две бригады непрофессионалов, которые потратили мои нервы, время и деньги. Но Юрий со своими ребятами буквально спас мой ремонт! Бригада работает быстро, качественно, да просто красиво! Кроме того, что ребята настоящие профессионалы своего дела, они ещё и очень порядочные, воспитанные люди. С ними приятно работать. Результат их работы превзошёл все ожидания. Спасибо!</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-button-prev-custom swiper-test-prev"></div>
+						<div class="swiper-button-next-custom swiper-test-next"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="sixth">
+			<div class="section no-pad">
+				<div class="duo_heading flex-column">
+					<div class="heading white">
+						<h4 class="ptBold white black-text center-align">Контакты</h4>
+					</div>
+					<div class="duo_line"></div>
+				</div>
+				<div class="container content">
+					<div class="row">
+						<div class="col s12 m12 l12 flex-column contacts">
+							<a class="external_service ptBold black-text" href="tel:89652506516">8 (965) 250-65-16</a>
+							<a class="external_service ptReg black-text" href="mailto:ms.remont87@mail.ru">ms.remont87@mail.ru</a>
+						</div>
+						<div class="col s12 m12 l12 flex-row">
+							<a data-target="modal_form" class="modal-trigger btn btn-round z-depth-0">
+								<div class="icon">
+									<img src="assets/icons/phone_white.svg" alt="" class="responsive-img">
+								</div>
+								<p class="ptBold">Позвоните мне</p>
+							</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="caption question">
+							<p class="ptBold center">Задать вопрос</p>
+						</div>
+						<div class="row">
+							<form id="form" action="" class="col s12 m12 l12" method="post" enctype="multipart/form-data">
+
+								<div class="col s12 m12 l4 input-field validate required">
+									<input placeholder="  Имя" id="name" name="name" type="text" class="validate ptBold black-text">
+								</div>
+								<div class="col s12 m12 l4 input-field validate required">
+									<input placeholder="  Номер телефона" id="phone" name="phone" type="tel" pattern="^[\+0-9]+[0-9]" class="validate ptBold black-text">
+								</div>
+								<div class="col s12 m12 l4 input-field validate required">
+									<input placeholder="  E-mail" id="mail" name="mail" type="email" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" class="validate ptBold black-text">
+								</div>
+								<div class="col s12 m12 l12 input-field validate required">
+									<textarea id="message_body" name="message_body" class="materialize-textarea ptBold black-text" placeholder="  Сообщение"></textarea>
+								</div>
+								<div class="col s12 m12 l12 flex-row send">
+									<button id="sended" type="submit" class="btn btn-round z-depth-0">
+										<div class="icon">
+											<img src="assets/icons/paper_flight_white.svg" alt="" class="responsive-img">
+										</div>
+										<p class="ptBold">Отправить</p>
+									</button>
+								</div>
+								<div class="col s12">
+									<input type="hidden" name="submitted" id="submitted" value="true" />
+								</div>
+							</form>
+							<div id="formMessage"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+	</main>
+	<footer class="page-footer">
+		<div class="container-thick">
+			<div class="row">
+				<div class="flex-row">
+					<p class="ptBold white-text">© 2016</p>
+					<div class="image"><img src="assets/img/pg.svg" alt="assets/img/pg.svg"></div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<div id="modal_form" class="modal white z-depth-0">
+		<div class="modal-content">
+				<p class="ptBold center">Позвоните мне</p>
+			<div class="container">
+				<div class="row">
+					<form id="modForm" action="" class="col s12 m12 l12 flex-column" method="post" enctype="multipart/form-data">
+
+						<div class="col s12 m6 l4 input-field validate required">
+							<input placeholder="  Имя" id="name" name="name" type="text" class="validate ptBold black-text">
+						</div>
+						<div class="col s12 m6 l4 input-field validate required">
+							<input placeholder="  Номер телефона" id="phone" name="phone" type="tel" pattern="^[\+0-9]+[0-9]" class="validate ptBold black-text">
+						</div>
+						<div class="col s12 m12 l12 flex-row send">
+							<button id="modSended" type="submit" class="btn btn-round z-depth-0">
+								<div class="icon">
+									<img src="assets/icons/paper_flight_white.svg" alt="" class="responsive-img">
+								</div>
+								<p class="ptBold">Отправить</p>
+							</button>
+						</div>
+						<div class="col s12">
+							<input type="hidden" name="submitted" id="submitted" value="true" />
+						</div>
+					</form>
+					<div id="modFormMessage"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Scripts -->
+	<script src="assets/js/jquery-3.1.1.min.js"></script>
+	<script src="assets/js/materialize.min.js"></script>
+	<script src="assets/js/swiper.jquery.min.js"></script>
+	<script src="assets/js/init.js"></script>
+</body>
+
+</html>
